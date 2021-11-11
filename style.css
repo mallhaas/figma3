@@ -1,0 +1,295 @@
+.content {
+width: 1400px;
+height: 3843px;
+background: #FFFFFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.navigation {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+width: 1400px;
+height: 78px;
+left: 0px;
+top: 8px;
+/* border: solid black; */
+}
+
+    .navigation_logo {
+    order: -1;
+    justify-self: flex-start;
+    margin-right: auto;
+    margin-left: 2rem;
+    width: 185.34px;
+    height: 31.97px;
+    }
+
+    .navigation_bar {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F281E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .navigation_bar li {
+        padding: 10px;
+        list-style: none;
+        margin-right: 2rem;
+    }
+
+    .navigation_button1 {
+        left: 1030.5px;
+        top: 15px;
+        Padding: 11px 22px 11px 22px;
+    }
+
+    .navigation_button1 button {
+        border-color: #BCD0E5;
+        width: 99px;
+        height: 46px;
+        color: #173A56;
+        border-radius: 4px;
+        Stroke: solid;
+    }
+
+    .navigation_button2 {
+    display: flex;
+    }
+
+    .navigation_button2 button {
+    background-color: #FF9900;
+    color: white;
+    width: 110px;
+    height: 46px;
+    padding: 11px 22px;
+    border-radius: 4px;
+    border: none;
+    }
+    
+.header {
+width: 1400px;
+height: 496px;
+display: flex;
+/* border: solid black; */k;
+justify-content: center;
+}
+
+    .left_side {
+    width: 532px;
+    height: 324px;
+    align-self: centers;
+    }
+
+    .header img {
+    width: 605px;
+    height: 496px;
+    }
+
+    .left_side-text {
+    width: 518px;
+    height: 232px;
+    }
+
+    .left_side-text p {
+    width: 458px;
+    height: 95px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    }
+
+    .left_side-text h2 {
+    width: 518px;
+    height: 108px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+    }
+
+    .left_side img {
+    width: 366px;
+    height: 53px;
+    }
+
+.feature {   
+width: 1400px;
+height: 543px;
+/* border: solid black; */
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+    .feature h2 {
+        height: 50px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: center;
+        color: #2F281E;
+    }
+
+    .text_container {
+        display: flex;
+        width: 1400px;
+        list-style-type: none;
+        justify-content: center;
+    }
+
+    .feature li {
+        width: 240px;
+        height: 204px;
+        /* border: solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 20px;
+        margin-right: 50px;
+    }
+
+    .feature button {
+        width: 175px;
+        height: 53px;
+        background-color: #FF9900;
+        border: none;
+        color: white;
+        border-radius: 4px;
+    }
+
+.validation {
+    width: 1400px;
+    height: 574px;
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+    .validation_text {
+        width: 486px;
+        height: 531px;
+        /* border: solid black; */
+        align-self: center;
+    }
+
+    .validation_image {
+        width: 520px;
+        height: 574px;
+        /* border: solid black; */
+    }
+
+.managers {
+    width: 1400px;
+    height: 521px;
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+    .managers_image {
+        width: 535px;
+        height: 521px;
+        /* border: solid black; */;
+    }
+
+    .managers_text {
+        width: 486px;
+        height: 427px;
+        /* border: solid black; */
+        align-self: center;
+    }
+
+.marketers {
+    width: 1400px;
+    height: 609px;
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+    .marketers_text {
+        width: 535px;
+        height: 521px;
+        /* border: solid black; */
+        align-self: center;
+    }
+
+    .marketers_image {
+        width: 542px;
+        height: 609px;
+        /* border: solid black; */
+    }
+
+.footer {
+    width: 1400px;
+    height: 330px;
+    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    gap: 120px;
+}
+
+.footer_navigation_logo {
+    width: 185.34px;
+    height: 31.97px;
+    /* border: solid black; */
+}
+
+.list1 {
+    width: 118px;
+    height: 219.64px;
+    /* border: solid black; */
+}
+
+.list2 {
+    width: 131px;
+    height: 219.64px;
+    /* border: solid black; */
+}
+
+.signup {
+    /* border: solid black; */
+    width: 325px;
+    height: 213.21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup input {
+    width: 325px;
+    height: 51.43px;
+}
+
+.signup button {
+    width: 131px;
+    height: 41.79px;
+    background-color: #FF9900;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
